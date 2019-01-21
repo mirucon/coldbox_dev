@@ -1,11 +1,13 @@
-# wp_docker_config
+# coldbox_dev
 
-Simple docker-compose config for WordPress with mailcatcher.
+Coldbox dev env with [wp_docker_config](https://github.com/mirucon/wp_docker_config).
 
-Default ports:
+Start dev with `$ docker-compose up -d`.
 
-* localhost:6500 for WordPress itself
-* localhost:6596 for MySQL
+Ports:
+
+* localhost:6597 for WordPress itself
+* localhost:6507 for MySQL
 * localhost:6525 for mailcatcher GUI, :6580 for mail port
 
 ## WP-CLI
