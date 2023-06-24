@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/src/wp-content/plugins/coldbox-addon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/wp-content/plugins/coldbox-ads-extension" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/wp-content/themes/coldbox" vcs="Git" />
+  </component>
+</project>
