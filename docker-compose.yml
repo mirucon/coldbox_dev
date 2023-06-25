@@ -14,12 +14,15 @@ services:
       MYSQL_PASSWORD: wordpress
 
   wordpress:
-    image: wordpress:php8.2
+    build:
+      context: docker/wordpress
+      dockerfile: Dockerfile
     depends_on:
       - db
     volumes:
 #      - wp_data:/var/www/html
       - ./src:/var/www/html
+      - ./coldbox-addon:/var/www/html/coldbox-addon
       - ./mu-plugins:/var/www/html/wp-content/mu-plugins
     ports:
       - "6507:80"
